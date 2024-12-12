@@ -1,0 +1,146 @@
+/*  body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #4caf50, #81c784);
+    color: #fff;
+    text-align: center;
+}
+
+header {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.3);
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+    color: #ffeb3b;
+}
+
+.game-container {
+    max-width: 500px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+input {
+    padding: 10px;
+    width: calc(100% - 22px);
+    margin: 10px 0;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    font-size: 1.1em;
+}
+
+input::placeholder {
+    color: #ddd;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #d32f2f;
+}
+
+.message {
+    font-size: 1.3em;
+    margin-top: 15px;
+}
+
+footer {
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.3);
+    margin-top: 20px;
+    font-size: 0.9em;
+}
+
+*/
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('/static/download.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+}
+
+header {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.3);
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+    color: #ffeb3b;
+}
+
+.game-container {
+    max-width: 500px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+input {
+    padding: 10px;
+    width: calc(100% - 22px);
+    margin: 10px 0;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    font-size: 1.1em;
+}
+
+input::placeholder {
+    color: #ddd;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #d32f2f;
+}
+
+.message {
+    font-size: 1.3em;
+    margin-top: 15px;
+}
+
+footer {
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.3);
+    margin-top: 20px;
+    font-size: 0.9em;
+}

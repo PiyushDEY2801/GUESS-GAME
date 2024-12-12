@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Number Game</title>
+    <link rel="stylesheet" href="/static/styles.css">
+    <script src="/static/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>🎲 Guess the Number!</h1>
+    </header>
+    <main>
+        <div class="game-container">
+            <p>I'm thinking of a number between <strong>1</strong> and <strong>100</strong>. Can you guess it?</p>
+            <form id="game-form" method="POST">
+                <input type="number" name="guess" id="guess-input" placeholder="Enter your guess" required>
+                <button type="submit">🔍 Submit</button>
+            </form>
+            <p id="message" class="message">{{ message }}</p>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Guess the Number Game. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
